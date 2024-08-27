@@ -2,7 +2,10 @@
 
 fetch(url)
     .then(function (response){
-        console.log(response.json());
+        return response.json();
+    })
+    .then(function (responseBody){
+        console.log(responseBody.results);
     })
     .catch(function (error){
         console.log(error);
