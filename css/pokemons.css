@@ -36,3 +36,15 @@
     padding: 3px;
     margin: 3px 3px 3px 0;
 }
+
+@media screen and (min-width: 600px){
+    .lista-pokemon {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .lista-pokemon {
+        grid-template-columns: 1fr;
+    }
+}
