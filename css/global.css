@@ -1,0 +1,16 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    padding-top: 0rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+body {
+    background-image: url("../assets/fundopokedex1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
