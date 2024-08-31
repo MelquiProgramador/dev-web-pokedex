@@ -1,11 +1,22 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /*Definimos a margin e padding de todos os elmentos para 0, facilitando o design mais tarde*/
+    margin: 0;
+    padding: 0;
 }
 .container{
-    padding-top: 0rem;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
-    padding-right: 2rem;
+
+    width: 75%;
+    margin: auto;
+
+    /*As medidas são sempre no sentido horário: top - right - bottom - left*/
+    padding: 0 2rem 2rem 2rem;
+
+    /*Também funcionam em grupos: top e bottom - right e left, podendo ser escrito assim:
+    
+    padding: 0 2rem;*/
+
 }
 
 body {
