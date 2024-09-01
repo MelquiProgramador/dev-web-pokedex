@@ -1,6 +1,7 @@
 .lista-pokemon{
     list-style: none;
     padding: 0;
+    margin-top: 15px;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -70,18 +71,36 @@
 }
 .pokemon .type{
     /*Geralmente se usa EM ou REM pra fontes, 1 EM = 16px*/
+    color: white;
     font-size: 0.8em;
-    background-color: #96e6d4;
     border-radius: 8px;
     padding: 5px;
 }
 
+/*Estilo dos tipos de Pokemon*/
+
 .grass {
-    background-color: #96e6d4;
+    background-color: #59b876;
 }
 
 .poison {
-    background-color: #8426bb;
+    background-color: #904ab8;
+}
+
+.fire {
+    background-color: rgb(228, 139, 55);
+}
+
+.flying {
+    background-color: rgb(157, 232, 235);
+}
+
+.water {
+    background-color: rgb(94, 175, 230);
+}
+
+.bug {
+    background-color: #85bb47;
 }
 
 @media screen and (min-width: 600px){

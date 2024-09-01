@@ -5,10 +5,20 @@
     margin: 0;
     padding: 0;
 }
+
+.container-header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+
+}
+
 .container{
 
     width: 75%;
-    margin: auto;
+    margin: 20px auto;
 
     /*As medidas são sempre no sentido horário: top - right - bottom - left*/
     padding: 0 2rem 2rem 2rem;
@@ -17,6 +27,11 @@
     
     padding: 0 2rem;*/
 
+}
+
+.container > h2 {
+    color: white;
+    text-shadow: 4px 2px 1px black;
 }
 
 body {
