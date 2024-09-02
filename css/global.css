@@ -1,11 +1,37 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /*Definimos a margin e padding de todos os elmentos para 0, facilitando o design mais tarde*/
+    margin: 0;
+    padding: 0;
 }
+
+.container-header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+
+}
+
 .container{
-    padding-top: 0rem;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
-    padding-right: 2rem;
+
+    width: 75%;
+    margin: 20px auto;
+
+    /*As medidas são sempre no sentido horário: top - right - bottom - left*/
+    padding: 0 2rem 2rem 2rem;
+
+    /*Também funcionam em grupos: top e bottom - right e left, podendo ser escrito assim:
+    
+    padding: 0 2rem;*/
+
+}
+
+.container > h2 {
+    color: white;
+    text-shadow: 4px 2px 1px black;
 }
 
 body {
